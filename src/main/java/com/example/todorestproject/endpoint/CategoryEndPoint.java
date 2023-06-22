@@ -13,7 +13,7 @@ import java.util.List;
 import java.util.Optional;
 
 @RestController
-@RequestMapping("/category")
+@RequestMapping("/categories")
 @RequiredArgsConstructor
 public class CategoryEndPoint {
     private final CategoryMapper categoryMapper;
